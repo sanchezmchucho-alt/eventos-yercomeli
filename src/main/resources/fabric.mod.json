@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "climaeventos",
+  "version": "1.0.0",
+  "name": "Clima y Eventos",
+  "description": "Eventos aleatorios: meteoritos, tormentas de items, noche de sangre y mas.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.climaeventos.ClimaEventos"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
